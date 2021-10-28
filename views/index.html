@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>signup</title>
+  </head>
+  <body>
+    <section id="auth-layout">      
+        <div class="form-section">
+          <div class="logo-section">
+              <img src="../img/logo.png" alt="kodecamp">
+          </div>
+          <div class="form-box">
+            <h1 class="form-signup">SignUp </h1>
+            <form action="/signupDetails" method="POST">
+              <div class="form-row">
+                <div class="input-box">
+                  <label for="">First Name</label><br>
+                  <input type="text"
+                  name = "firstName"
+                  id = "firstname">
+                </div>
+                <div class="input-box">
+                  <label for="">Last Name</label><br>
+                  <input type="text"
+                  name = "lastName"
+                  id = "lastname">
+                </div>
+              </div>
+              <div class="form-row">
+                  <div class="input-box">
+                    <label for="">Email</label><br>
+                    <input type="text"
+                    name = "email"
+                    id = "email">
+                  </div>
+                  <div class="input-box">
+                    <label for="" >Gender</label><br>
+                    <select name="gender" >
+                      <option able selected value> </option>
+                      <option name="gender">Male</option>
+                      <option name="gender">Female</option>
+                    </select>
+                  </div>
+              </div>
+              <div class="form-row">
+                <div class="input-box">
+                  <label for="">Password</label><br>
+                  <input type="text"
+                  name = "password"
+                  id = "password">
+                </div>
+                <div class="input-box">
+                  <label for="">Confirm Password</label><br>
+                  <input type="text"
+                  name = "confirmPassword"
+                  id = "confirmPassword">
+                </div>
+              </div>
+              <div class="form-row">
+                  <div class="input-box">
+                    <label for="">Educational Level</label><br>
+                    <select name="educationalLevel" >
+                      <option able selected value> </option>
+                      <option name="educationalLevel">P.H.D</option>
+                      <option name="educationalLevel">M.S.C</option>
+                      <option name="educationalLevel" >B.S.C</option>
+                      <option name="educationalLevel">HND</option>
+                    </select>
+                  </div>
+                  <div class="input-box">
+                    <label for="">Experience Level</label><br>
+                    <select name="experienceLevel">
+                      <option able selected value> </option>
+                      <option name="experienceLevel">10years above</option>
+                      <option name="experienceLevel">10years - 5years</option>
+                      <option name="experienceLevel">5years below</option>
+                      <option name="experienceLevel">none</option>
+                    </select>
+                  </div>
+              </div>
+              <div class="form-row">
+                <div class="textarea-section">
+                  <label for="">Tell us about you</label><br>
+                  <textarea name="aboutYou" id="aboutYou"
+                  ></textarea>
+                </div>
+              </div>
+              <div class ="button-section">
+                  <button type="create">Create Account</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="image-section">
+          <div class="form-image">
+            <h2>KodeCamp</h2>
+          </div>                  
+          </div>
+        </div>
+
+        </div>
+    </section>
+</body>
+</html> 
